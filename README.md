@@ -1,11 +1,21 @@
 # Dvorak alternative international no dead keys
 
-This keyboard layout is included by default in unix distributions like `Debian`, and I really like it. I come from France, and it is useful for all french characters like `ç`, `à` or `é`. So I decided to export this layout to Mac OS and Windows. 
+![Image of dvorak alternative international no dead keys layout](https://raw.githubusercontent.com/soywod/dvorak-alt-intl/master/img/dvorak-alt-intl.png)
 
-For now I've only exported french dead keys, your help is welcomed to complete this layout !
+This keyboard layout is included by default in unix distributions like `Debian`. This repo aims to export it to `Mac OS` and `Windows`.
 
-Tools used for building layout :
+I've only set up dead keys and special characters I learned from my native languages, like `~ ^ ç é` but a lot are missing, like `ˇ ˙ ˝`... Your help would be appreciated ;)
 
-- Mac OS : Ukelele
-- Windows : ?
+## How it works
 
+- `/src` contains source layout files
+- `/dist` contains all binairies to install the layout
+
+Each folder contains a `/mac` folder for `Mac OS` systems and a `win` folder for `Windows`.
+
+## How to edit layout from sources
+
+Just open source layout files with the correct tool :
+
+- Mac OS : [Ukelele](https://www.macupdate.com/app/mac/14495/ukelele)
+- Windows : [Keyboard Layout Creator](https://msdn.microsoft.com/en-us/globalization/keyboardlayouts.aspx) v1.4
