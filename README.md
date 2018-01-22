@@ -13,9 +13,11 @@ I've only set up dead keys and special characters I learned from my native langu
 
 Each folder contains a `/mac` folder for `Mac OS` systems and a `win` folder for `Windows`.
 
+Update : no binaries are required anymore for MacOS. To install the layout, just put the `.keylayout` file from `src` into your `/Library/Keyboard Layouts/` and reboot.
+
 ## How to edit layout from sources
 
 Just open source layout files with the correct tool :
 
-- Mac OS : [Ukelele](https://www.macupdate.com/app/mac/14495/ukelele)
+- Mac OS : [Ukelele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele)
 - Windows : [Keyboard Layout Creator](https://msdn.microsoft.com/en-us/globalization/keyboardlayouts.aspx) v1.4
